@@ -27,6 +27,8 @@
     ${header["user-agent"]}
 </p>
 
-<jsp:forward page="redirected.jsp"/>
+<jsp:forward page="redirected.jsp">
+    <jsp:param name="myParam" value="Mój parametr"/>
+</jsp:forward>
 </body>
 </html>
