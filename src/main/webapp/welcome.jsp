@@ -26,5 +26,7 @@
 <p>
     ${header["user-agent"]}
 </p>
+
+<jsp:forward page="redirected.jsp"/>
 </body>
 </html>
