@@ -19,5 +19,12 @@
     <!-- Komentarz HTML -->
     <%-- Komentarz JSP --%>
 </p>
+<p>
+    kontextPath: ${pageContext.request.contextPath}
+</p>
+
+<p>
+    ${header["user-agent"]}
+</p>
 </body>
 </html>
