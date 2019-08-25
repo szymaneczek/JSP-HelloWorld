@@ -5,7 +5,9 @@ public class Calculator {
 
     public int square(){ return n * n;  }
 
-    public void setN(int n){
-        this.n=n;
+    public void setN(int n){ this.n=n; }
+
+    public int getN() {
+        return n;
     }
 }
