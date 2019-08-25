@@ -5,5 +5,7 @@
     </head>
 <body>
 <h1><% out.println("Hello world!"); %></h1>
+<p>
+    Dzisiaj jest: <%= java.time.LocalDate.now().toString() %>
 </body>
 </html>
