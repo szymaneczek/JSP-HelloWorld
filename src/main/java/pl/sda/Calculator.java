@@ -1,7 +1,11 @@
 package pl.sda;
 
 public class Calculator {
-    public int square(int n){
-        return n * n;
+    private int n;
+
+    public int square(){ return n * n;  }
+
+    public void setN(int n){
+        this.n=n;
     }
 }
